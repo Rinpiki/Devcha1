@@ -5,7 +5,56 @@ body, h1,  h2, p, ul, li, a{
 }
 
 
+
 * {
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    background: #0E0F10;
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+    flex-wrap: wrap ;
+}
+
+.con-sup {
+    border: blue solid 2px;
+    margin: 0 auto;
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.bola-texto {
+    display: flex;
+    border: solid white 2px;
+    width: 70%;
+    height: 70%;
+    margin-left: 10px;
+    
+}
+
+.bola {
+    background: #1B1B1B;
+    border: solid #1B1B1B 2px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.texto {
+    color: #B7B7B7;
+}
+
+.link {
+    border: white solid 2px;
+    width: 15%;
+    height: 20%;
+    margin-right: 10px;
+}
