@@ -13,20 +13,22 @@ body, h1,  h2, p, ul, li, a{
 
 body {
     background:#0C0B0B ;
+    
 }
 
 
 .container {
     display: flex;
-    background: #0E0F10;
-    width: 80%;
-    height: 300px;
-    margin: 100px auto;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+    margin-top: 50px;
+   
+    
 }
 
-.con-sup {
-    border: blue solid 2px;
+.consup {
+    background: #0E0F10;
     margin: 0 auto;
     width: 700px;
     height: 160px;
@@ -40,7 +42,6 @@ body {
 
 .bola {
     background: #1B1B1B;
-    border: solid #1B1B1B 2px;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -50,7 +51,7 @@ body {
 .texto {
     flex-wrap: wrap;
     color: #B7B7B7;
-    border: black solid 2px;
+    
     
 }
 
@@ -79,15 +80,54 @@ img {
 }
 
 .con-valor {
-    border: blue solid 2px;
+    background: #0E0F10;
     margin: 0 auto;
     width: 700px;
-    height: 140px;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.valor1 {
+    border: #046313 solid 2px;
+    border-radius: 6px;
+    background: #046313;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.valor1, .valor2, .valor3 {
+    font-size: 1.5em;
+
+}
+
+.valor2 {
+    border: #044A7D solid 2px;
+    border-radius: 6px;
+    background: #044A7D;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.valor3 {
+    border: #725200 solid 2px;
+    border-radius: 6px;
+    background: #725200;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
 }
 
 @media (max-width: 600px) {
-    .con-sup {
+    .consup {
         display: block;
     }
 
@@ -101,5 +141,17 @@ img {
 
     .link {
         margin: 0 auto;
+    }
+
+    .con-valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+
+    }
+
+    .valor1, .valor2, .valor3 {
+        width: 300px;
     }
 }
