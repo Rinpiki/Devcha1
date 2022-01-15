@@ -10,6 +10,7 @@ body, h1,  h2, p, ul, li, a{
     box-sizing: border-box;
 }
 
+
 .container {
     display: flex;
     background: #0E0F10;
@@ -22,25 +23,16 @@ body, h1,  h2, p, ul, li, a{
 .con-sup {
     border: blue solid 2px;
     margin: 0 auto;
-    width: 80%;
-    height: 45%;
+    width: 700px;
+    height: 150px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap ;
 
     
 }
 
-.bola-texto {
-    display: flex;
-    border: solid white 2px;
-    width: 300px;
-    height: 100px;
-    margin-left: 10px;
-    align-items: center;
-    
-}
+
 
 .bola {
     background: #1B1B1B;
@@ -48,11 +40,17 @@ body, h1,  h2, p, ul, li, a{
     border-radius: 50%;
     width: 70px;
     height: 70px;
+    margin-left: 25px;
 }
 
 .texto {
+    display: block;
+    flex-wrap: wrap;
     color: #B7B7B7;
-    margin-left: 10px;
+    width: 240px;
+    height: 60px;
+    border: black solid 2px;
+
 }
 
 .link {
@@ -63,6 +61,7 @@ body, h1,  h2, p, ul, li, a{
     width: 70px;
     height: 27px;
     margin-right: 10px;
+    
     
 
 }
